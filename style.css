@@ -1,0 +1,102 @@
+header {
+    background-color: rgb(49, 77, 55);
+}
+
+header h1 {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.nav .nav-link.active,
+.nav-item a:hover {
+    background-color: whitesmoke;
+    color:  rgb(49, 77, 55);
+}
+
+.nav-item a {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.carousel-inner {
+    height: 600px;
+    align-items: center;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.container {
+    width: 1920px;
+    padding: 10px;
+}
+
+.container h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-md-3 img {
+    width: 100%
+}
+
+#cardapio button {
+    background-color: white;
+    color: rgb(29, 43, 32);
+}
+
+#cardapio .nav .nav-link.active,
+#cardapio .nav-item a:hover  {
+    margin: 10px 0;
+    background-color: rgba(40, 58, 44, 0.76);
+    color: white;
+}
+
+#sobre {
+    margin: 10px 0;
+    background-color: rgba(40, 58, 44, 0.76);
+    color: white;
+}
+
+#eventos {
+    background-color: rgba(40, 58, 44, 0.411);
+    color: white;
+}
+
+#contato {
+    background-color: rgb(40, 58, 44);
+    color: white;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.container button {
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: whitesmoke;
+    
+}
+
+footer {
+    background-color: rgb(49, 77, 55);
+    padding: 15px;
+    color: aliceblue;
+    font-size: 16px;
+}
